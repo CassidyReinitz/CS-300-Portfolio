@@ -1,0 +1,21 @@
+Project One: Runtime and Memory Analysis
+
+Assume n = number of courses in the input file.
+
+Vector:
+- Insert/search: O(n)
+- Advantages: Simple to implement and sort
+- Disadvantages: Slow lookup for individual courses
+
+Hash Table:
+- Insert/search: O(1) average
+- Advantages: Very fast lookup by course number
+- Disadvantages: Not naturally sorted
+
+Binary Search Tree:
+- Insert/search: O(log n) average
+- Advantages: Maintains sorted order with efficient operations
+- Disadvantages: Can degrade to O(n) in worst-case
+
+Recommendation:
+The binary search tree is the best overall choice because it combines sorted order with efficient lookups.
